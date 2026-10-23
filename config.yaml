@@ -1,0 +1,24 @@
+recognition:
+  backend: lbph
+  confidence_threshold: 0.45
+  min_face_size: 80
+
+liveness:
+  challenges_per_session: 3
+  challenge_timeout_sec: 4.0
+  ear_blink_threshold: 0.21
+  consecutive_closed_frames: 2
+  yaw_threshold_deg: 16.0
+  smile_mouth_ratio: 0.42
+  nod_pitch_delta_deg: 12.0
+
+antispoof:
+  image_size: 128
+  cnn_threshold: 0.55
+  texture_threshold: 0.55
+  fusion: max
+  model_path: models/antispoof_cnn.pt
+
+attendance:
+  cooldown_sec: 30
+  db_path: attendance.db

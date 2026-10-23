@@ -1,0 +1,20 @@
+{
+  "architecture": "AntiSpoofCNN",
+  "image_size": 96,
+  "class_to_index": {
+    "real": 0,
+    "spoof": 1
+  },
+  "best_test_loss": 0.47068811952523726,
+  "test_accuracy": 0.7947424322889007,
+  "confusion_matrix": [
+    [
+      370,
+      19
+    ],
+    [
+      754,
+      2623
+    ]
+  ]
+}
