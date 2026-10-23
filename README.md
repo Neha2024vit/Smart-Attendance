@@ -20,4 +20,4 @@
 17. Install dependencies using `pip install -r requirements.txt`.
 18. Run the app using `python -m uvicorn app.main:app --reload`.
 19. Open `http://127.0.0.1:8000` in your browser.
-20. **Note:** This is an academic prototype and is not production-grade security software.
+
